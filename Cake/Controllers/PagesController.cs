@@ -32,5 +32,10 @@ namespace Cake.Controllers
         {
             return View();
         }
+        public IActionResult Class()
+        {
+            return View();
+        }
+
     }
 }

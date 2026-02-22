@@ -31,3 +31,4 @@ C:\Users\elshad\Desktop\Cake\Cake\obj\Debug\net8.0\refint\Cake.dll
 C:\Users\elshad\Desktop\Cake\Cake\obj\Debug\net8.0\Cake.pdb
 C:\Users\elshad\Desktop\Cake\Cake\obj\Debug\net8.0\Cake.genruntimeconfig.cache
 C:\Users\elshad\Desktop\Cake\Cake\obj\Debug\net8.0\ref\Cake.dll
+C:\Users\elshad\Desktop\Cake\Cake\obj\Debug\net8.0\Cake.sourcelink.json

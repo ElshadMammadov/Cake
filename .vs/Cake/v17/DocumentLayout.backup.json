@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,16 +42,16 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\About\\Index.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\About\\Index.cshtml*",
-              "RelativeToolTip": "Cake\\Views\\About\\Index.cshtml*",
-              "ViewState": "AgIAABYBAAAAAAAAAAAcwCUBAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "Cake\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-22T12:51:44.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "Cake\\Controllers\\AboutController.cs",
@@ -59,12 +59,11 @@
               "RelativeToolTip": "Cake\\Controllers\\AboutController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T12:51:35.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T12:51:35.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Home\\Index.cshtml",
@@ -72,24 +71,24 @@
               "RelativeToolTip": "Cake\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAANIBAAAAAAAAAAAUwBcCAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T12:45:16.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T12:45:16.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Cake\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T12:44:55.02Z"
+              "WhenOpened": "2026-02-22T12:44:55.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Cake\\Controllers\\HomeController.cs",
@@ -101,15 +100,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Cake\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAHkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T12:09:17.16Z"
+              "WhenOpened": "2026-02-22T12:09:17.16Z",
+              "EditorCaption": ""
             }
           ]
         }

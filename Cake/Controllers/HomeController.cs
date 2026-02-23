@@ -1,14 +1,22 @@
 using System.Diagnostics;
-
+using Cake.Data;
+using Cake.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Cake.Controllers
 {
     public class HomeController : Controller
-    {  
-        public IActionResult Index()
+    {
+        private readonly AppDbContext _context;
+        public HomeController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public async Task <IActionResult> Index()
+        {
+            List<Category> datas = await _context.Categories.ToListAsync();
+            return View(datas);
         }        
     }
 }

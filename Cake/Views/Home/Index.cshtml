@@ -1,7 +1,9 @@
-﻿    <!-- Hero Section Begin -->
+﻿   @model List<Category>
+ 
+<!-- Hero Section Begin -->
 <section class="hero">
     <div class="hero__slider owl-carousel">
-        <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+        <div class="hero__item set-bg" data-setbg="/img/hero/hero-1.jpg">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-8">
@@ -78,42 +80,19 @@
     <div class="container">
         <div class="row">
             <div class="categories__slider owl-carousel">
-                <div class="categories__item">
-                    <div class="categories__item__icon">
-                        <span class="flaticon-029-cupcake-3"></span>
-                        <h5>Cupcake</h5>
+
+                @foreach (var item in Model)
+                {
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class=@item.IconClass></span>
+                            <h5>@item.Name</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="categories__item">
-                    <div class="categories__item__icon">
-                        <span class="flaticon-034-chocolate-roll"></span>
-                        <h5>Butter</h5>
-                    </div>
-                </div>
-                <div class="categories__item">
-                    <div class="categories__item__icon">
-                        <span class="flaticon-005-pancake"></span>
-                        <h5>Red Velvet</h5>
-                    </div>
-                </div>
-                <div class="categories__item">
-                    <div class="categories__item__icon">
-                        <span class="flaticon-030-cupcake-2"></span>
-                        <h5>Biscuit</h5>
-                    </div>
-                </div>
-                <div class="categories__item">
-                    <div class="categories__item__icon">
-                        <span class="flaticon-006-macarons"></span>
-                        <h5>Donut</h5>
-                    </div>
-                </div>
-                <div class="categories__item">
-                    <div class="categories__item__icon">
-                        <span class="flaticon-006-macarons"></span>
-                        <h5>Cupcake</h5>
-                    </div>
-                </div>
+                }
+
+
+                
             </div>
         </div>
     </div>
@@ -125,7 +104,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-1.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-1.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -141,7 +120,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-2.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-2.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -157,7 +136,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-3.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-3.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -173,7 +152,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-4.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-4.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -189,7 +168,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-5.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-5.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -205,7 +184,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-6.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-6.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -221,7 +200,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-7.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-7.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -237,7 +216,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="product__item">
-                    <div class="product__item__pic set-bg" data-setbg="img/shop/product-8.jpg">
+                    <div class="product__item__pic set-bg" data-setbg="/img/shop/product-8.jpg">
                         <div class="product__label">
                             <span>Cupcake</span>
                         </div>
@@ -279,7 +258,7 @@
                 </div>
             </div>
         </div>
-        <div class="class__video set-bg" data-setbg="img/class-video.jpg">
+        <div class="class__video set-bg" data-setbg="/img/class-video.jpg">
             <a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1"
                class="play-btn video-popup"><i class="fa fa-play"></i></a>
         </div>
@@ -304,7 +283,7 @@
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
+                <div class="team__item set-bg" data-setbg="/img/team/team-1.jpg">
                     <div class="team__item__text">
                         <h6>Randy Butler</h6>
                         <span>Decorater</span>
@@ -318,7 +297,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="team__item set-bg" data-setbg="img/team/team-2.jpg">
+                <div class="team__item set-bg" data-setbg="/img/team/team-2.jpg">
                     <div class="team__item__text">
                         <h6>Randy Butler</h6>
                         <span>Decorater</span>
@@ -332,7 +311,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="team__item set-bg" data-setbg="img/team/team-3.jpg">
+                <div class="team__item set-bg" data-setbg="/img/team/team-3.jpg">
                     <div class="team__item__text">
                         <h6>Randy Butler</h6>
                         <span>Decorater</span>
@@ -346,7 +325,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="team__item set-bg" data-setbg="img/team/team-4.jpg">
+                <div class="team__item set-bg" data-setbg="/img/team/team-4.jpg">
                     <div class="team__item__text">
                         <h6>Randy Butler</h6>
                         <span>Decorater</span>
@@ -380,7 +359,7 @@
                     <div class="testimonial__item">
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="img/testimonial/ta-1.jpg" alt="">
+                                <img src="/img/testimonial/ta-1.jpg" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Kerry D.Silva</h5>
@@ -404,7 +383,7 @@
                     <div class="testimonial__item">
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="img/testimonial/ta-2.jpg" alt="">
+                                <img src="/img/testimonial/ta-2.jpg" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Kerry D.Silva</h5>
@@ -428,7 +407,7 @@
                     <div class="testimonial__item">
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="img/testimonial/ta-1.jpg" alt="">
+                                <img src="/img/testimonial/ta-1.jpg" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Ophelia Nunez</h5>
@@ -452,7 +431,7 @@
                     <div class="testimonial__item">
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="img/testimonial/ta-2.jpg" alt="">
+                                <img src="/img/testimonial/ta-2.jpg" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Kerry D.Silva</h5>
@@ -476,7 +455,7 @@
                     <div class="testimonial__item">
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="img/testimonial/ta-1.jpg" alt="">
+                                <img src="/img/testimonial/ta-1.jpg" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Ophelia Nunez</h5>
@@ -500,7 +479,7 @@
                     <div class="testimonial__item">
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="img/testimonial/ta-2.jpg" alt="">
+                                <img src="/img/testimonial/ta-2.jpg" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Kerry D.Silva</h5>
@@ -542,32 +521,32 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                         <div class="instagram__pic">
-                            <img src="img/instagram/instagram-1.jpg" alt="">
+                            <img src="/img/instagram/instagram-1.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                         <div class="instagram__pic middle__pic">
-                            <img src="img/instagram/instagram-2.jpg" alt="">
+                            <img src="/img/instagram/instagram-2.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                         <div class="instagram__pic">
-                            <img src="img/instagram/instagram-3.jpg" alt="">
+                            <img src="/img/instagram/instagram-3.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                         <div class="instagram__pic">
-                            <img src="img/instagram/instagram-4.jpg" alt="">
+                            <img src="/img/instagram/instagram-4.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                         <div class="instagram__pic middle__pic">
-                            <img src="img/instagram/instagram-5.jpg" alt="">
+                            <img src="/img/instagram/instagram-5.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                         <div class="instagram__pic">
-                            <img src="img/instagram/instagram-3.jpg" alt="">
+                            <img src="/img/instagram/instagram-3.jpg" alt="">
                         </div>
                     </div>
                 </div>

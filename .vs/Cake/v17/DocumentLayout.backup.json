@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\pages\\shopingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\pages\\shopingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\pages\\blogdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\pages\\blogdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\pages\\shopdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\pages\\shopdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\pages\\shopingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|solutionrelative:cake\\views\\pages\\shopingcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD401E4-FF0E-499B-9A06-1156EF2A46C5}|Cake\\Cake.csproj|c:\\users\\elshad\\desktop\\cake\\cake\\views\\pages\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,7 +94,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Class.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Pages\\Class.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Pages\\Class.cshtml",
@@ -102,8 +102,7 @@
               "RelativeToolTip": "Cake\\Views\\Pages\\Class.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T14:38:32.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T14:38:32.494Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "Cake\\Controllers\\PagesController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T13:34:14.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T13:34:14.568Z"
             },
             {
               "$type": "Document",
@@ -124,9 +122,9 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Cake\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABBAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Cake\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAtwGYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-22T12:09:17.16Z",
               "EditorCaption": ""
@@ -141,12 +139,11 @@
               "RelativeToolTip": "Cake\\Controllers\\ShopController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T13:23:17.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T13:23:17.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ShopDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Pages\\ShopDetails.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Pages\\ShopDetails.cshtml",
@@ -154,12 +151,11 @@
               "RelativeToolTip": "Cake\\Views\\Pages\\ShopDetails.cshtml",
               "ViewState": "AgIAAOUAAAAAAAAAAAAtwPAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T13:47:36.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T13:47:36.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BlogDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Pages\\BlogDetails.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Pages\\BlogDetails.cshtml",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "Cake\\Views\\Pages\\BlogDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T14:16:06.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T14:16:06.487Z"
             },
             {
               "$type": "Document",
@@ -180,18 +175,17 @@
               "RelativeToolTip": "Cake\\Views\\Pages\\Checkout.cshtml",
               "ViewState": "AgIAAEgAAAAAAAAAAAAcwIkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T14:14:21.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T14:14:21.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ShopingCart.cshtml",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Pages\\ShopingCart.cshtml",
               "RelativeDocumentMoniker": "Cake\\Views\\Pages\\ShopingCart.cshtml",
               "ToolTip": "C:\\Users\\elshad\\Desktop\\Cake\\Cake\\Views\\Pages\\ShopingCart.cshtml",
               "RelativeToolTip": "Cake\\Views\\Pages\\ShopingCart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-22T13:50:26.967Z",
               "EditorCaption": ""
@@ -206,8 +200,7 @@
               "RelativeToolTip": "Cake\\Views\\Pages\\WissList.cshtml",
               "ViewState": "AgIAAEQAAAAAAAAAAAAowF0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T14:09:33.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T14:09:33.315Z"
             },
             {
               "$type": "Document",
@@ -231,8 +224,7 @@
               "RelativeToolTip": "Cake\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T12:44:27.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T12:44:27.176Z"
             },
             {
               "$type": "Document",
